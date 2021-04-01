@@ -31,7 +31,7 @@ header h2 {
     float: left;
     width: 20%;
     min-width: 210px;
-    max-width: 280px;
+    max-width: 250px;
 }
 
 #right {
@@ -68,5 +68,52 @@ header h2 {
 }
 
 #market {
-
+    padding-left: 20px;
 }
+
+.item {
+    position: relative;
+    width: 250px;
+    height: 235px;
+    display: inline-table;
+    margin: 10px 5px;
+}
+
+.item img {
+    width: 250px;
+    height: 150px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.item .desc {
+    color: green;
+    font-family: "Montserrat";
+    font-weight: 500;
+}
+
+.prices {
+    color: rgb(233, 233, 233);
+    font-family: "Source Sans Pro";
+    font-weight: 500;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.item .price {
+    float: left;
+    display: inline;
+    background-color: rgba(201, 49, 29, 0.986);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.item .price2 {
+    float: right;
+    display: inline;
+    background-color: rgb(49, 170, 70);
+    padding: 5px;
+    border-radius: 10px;
+}
+
