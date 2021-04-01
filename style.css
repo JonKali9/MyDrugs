@@ -30,7 +30,7 @@ header h2 {
     margin-left: 10px;
     float: left;
     width: 20%;
-    min-width: 210px;
+    min-width: 220px;
     max-width: 250px;
 }
 
@@ -54,11 +54,21 @@ header h2 {
     margin-left: 10px;
 }
 
+.category:hover {
+    text-decoration: underline green;
+    cursor: pointer;
+}
+
 .sub-category {
     display: inline;
     width: 100px;
     color: green;
     margin-left: 22px;
+}
+
+.sub-category:hover {
+    text-decoration: underline green;
+    cursor: pointer;
 }
 
 .listings {
@@ -93,6 +103,11 @@ header h2 {
     font-family: "Montserrat";
     font-weight: 500;
     text-align: left;
+}
+
+.item:hover {
+    text-decoration: underline green;
+    cursor: pointer;
 }
 
 .prices {
