@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: content-box;
 }
 
 header {
@@ -21,22 +22,49 @@ header h2 {
     color: rgb(97, 97, 97);
 }
 
+#content {
+    display: flex;
+}
+
 #left {
     margin-left: 10px;
     float: left;
     width: 20%;
-    border: 3px gray solid;
+    min-width: 210px;
+    max-width: 280px;
 }
 
 #right {
     margin-right: 10px;
     float: right;
-    width: 76.5%;
-    border: 3px gray solid;
+    width: 83%;
 }
 
 #categories {
+    font-family: "Work Sans";
+    font-weight: 600;
+    padding: 15px 0;
+    box-shadow: 0px 0px 5px black;
+}
+
+.category {
+    display: inline;
+    width: 100px;
     color: green;
+    margin-left: 5px;
+}
+
+.sub-category {
+    display: inline;
+    width: 100px;
+    color: green;
+    margin-left: 18px;
+}
+
+.listings {
+    display: inline-block;
+    color: gray;
+    font-style: italic;
 }
 
 #market {
