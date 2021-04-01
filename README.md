@@ -23,3 +23,5 @@
 * Herbs & Supplements
 * Home & Garden
 * Jewelry
+
+`Please note this project is just for practice and not genuine. No FBI plz.`
