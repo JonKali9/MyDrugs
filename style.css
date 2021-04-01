@@ -51,14 +51,14 @@ header h2 {
     display: inline;
     width: 100px;
     color: green;
-    margin-left: 5px;
+    margin-left: 10px;
 }
 
 .sub-category {
     display: inline;
     width: 100px;
     color: green;
-    margin-left: 18px;
+    margin-left: 22px;
 }
 
 .listings {
@@ -69,6 +69,7 @@ header h2 {
 
 #market {
     padding-left: 20px;
+    text-align: center;
 }
 
 .item {
@@ -84,12 +85,14 @@ header h2 {
     height: 150px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+    object-fit: cover;
 }
 
 .item .desc {
     color: green;
     font-family: "Montserrat";
     font-weight: 500;
+    text-align: left;
 }
 
 .prices {
@@ -116,4 +119,6 @@ header h2 {
     padding: 5px;
     border-radius: 10px;
 }
+
+
 
