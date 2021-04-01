@@ -2,3 +2,43 @@
     margin: 0;
     padding: 0;
 }
+
+header {
+    margin: 0 20px;
+}
+
+header h1 {
+    font-family: 'Noto Sans JP'; 
+    font-size: 40px
+}
+
+header h2 {
+    font-family: 'New Tegomin'; 
+    position: relative; 
+    bottom: 15px; 
+    font-size: 20px;
+    font-style: italic;
+    color: rgb(97, 97, 97);
+}
+
+#left {
+    margin-left: 10px;
+    float: left;
+    width: 20%;
+    border: 3px gray solid;
+}
+
+#right {
+    margin-right: 10px;
+    float: right;
+    width: 76.5%;
+    border: 3px gray solid;
+}
+
+#categories {
+    color: green;
+}
+
+#market {
+
+}
